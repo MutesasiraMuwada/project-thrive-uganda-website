@@ -30,14 +30,18 @@ body{
 }
 
 .hero{
+    
     background:url('../images/hero.jpeg');
     background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
     height:80vh;
     display:flex;
     justify-content:center;
     align-items:center;
     text-align:center;
     color:white;
+
 }
 
 .hero-content{
@@ -75,4 +79,41 @@ footer{
     color:white;
     text-align:center;
     padding:20px;
+}
+/* Mobile responsiveness */
+
+@media (max-width: 768px){
+
+.navbar{
+    flex-direction:column;
+    text-align:center;
+}
+
+.nav-links{
+    flex-direction:column;
+    padding:0;
+}
+
+.nav-links li{
+    margin:10px 0;
+}
+
+.hero{
+    height:60vh;
+    padding:20px;
+}
+
+.hero h2{
+    font-size:24px;
+}
+
+.program-container{
+    flex-direction:column;
+    align-items:center;
+}
+
+.program-card{
+    width:90%;
+}
+
 }
