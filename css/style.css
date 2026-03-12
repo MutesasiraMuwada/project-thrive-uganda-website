@@ -8,11 +8,13 @@ body{
     justify-content:space-between;
     align-items:center;
     background:#0a5c36;
-    padding:15px 40px;
+    padding:15px 20px;
+    position:relative;
 }
 
 .logo{
     color:white;
+    font-size:24px;
 }
 
 .nav-links{
@@ -89,7 +91,10 @@ footer{
 }
 
 .menu-toggle{
-    display:block;
+    display:none;
+    font-size:28px;
+    color:white;
+    cursor:pointer;
 }
 
 .nav-links{
