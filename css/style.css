@@ -82,29 +82,30 @@ footer{
 }
 /* Mobile responsiveness */
 
-@media (max-width: 768px){
+@media (max-width:768px){
 
 .navbar{
-    flex-direction:column;
-    text-align:center;
+    flex-wrap:wrap;
+}
+
+.menu-toggle{
+    display:block;
 }
 
 .nav-links{
+    display:none;
+    width:100%;
     flex-direction:column;
-    padding:0;
+    background:#0a5c36;
+    text-align:center;
 }
 
 .nav-links li{
-    margin:10px 0;
+    margin:15px 0;
 }
 
-.hero{
-    height:60vh;
-    padding:20px;
-}
-
-.hero h2{
-    font-size:24px;
+.nav-links.active{
+    display:flex;
 }
 
 .program-container{
@@ -116,4 +117,12 @@ footer{
     width:90%;
 }
 
+}
+/* Hamburger menu */
+
+.menu-toggle{
+    display:none;
+    font-size:28px;
+    color:white;
+    cursor:pointer;
 }
