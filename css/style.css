@@ -37,7 +37,7 @@ body{
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
-    height:40vh;
+    height:70vh;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -92,8 +92,9 @@ footer{
     width:100%;
     background:#0a5c36;
     position:absolute;
-    top:60px;
+    top:65px;
     left:0;
+    text-align:center;
 }
 
 .nav-links li{
@@ -113,7 +114,7 @@ footer{
 
 .menu-toggle{
     display:none;
-    font-size:28px;
+    font-size:30px;
     color:white;
     cursor:pointer;
 }
