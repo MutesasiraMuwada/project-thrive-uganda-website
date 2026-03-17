@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate - Project Thrive Uganda</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<header>
+    <nav class="navbar">
+        <h1 class="logo">Project Thrive Uganda</h1>
+
+        <!-- Hamburger Menu -->
+        <div class="menu-toggle" id="mobile-menu">
+            ☰
+        </div>
+
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="programs.html">Our Programs</a></li>
+            <li><a href="get-involved.html">Get Involved</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Page Header -->
+<section class="page-header">
+    <div class="page-header-content">
+        <h1>Make a Donation</h1>
+        <p>Support our work and transform lives</p>
+    </div>
+</section>
+
+<!-- Donate Section -->
+<section class="donate-section">
+    <div class="container">
+        
+        <div class="donate-grid">
+            
+            <!-- Donation Information -->
+            <div class="donate-info">
+                <h2>Your Support Matters</h2>
+                <p>Your donation helps us continue our vital work in education, health, gender equality, and community development across Uganda. Every contribution, no matter the size, makes a difference in the lives of vulnerable children, youth, women, and families.</p>
+                
+                <div class="bank-details">
+                    <h3>Bank Transfer Details</h3>
+                    <p><strong>Bank:</strong> Stanbic Bank Uganda</p>
+                    <p><strong>Account Name:</strong> Project Thrive Uganda</p>
+                    <p><strong>Account Number:</strong> 9030012345678</p>
+                    <p><strong>Branch:</strong> Mityana</p>
+                    <p><strong>SWIFT Code:</strong> SBICUGKX</p>
+                </div>
+
+                <div class="bank-details">
+                    <h3>Mobile Money</h3>
+                    <p><strong>MTN Uganda:</strong> +256775827420</p>
+                    <p><strong>Airtel Uganda:</strong> +256700123456</p>
+                    <p><strong>Name:</strong> Project Thrive Uganda</p>
+                </div>
+            </div>
+
+            <!-- Donation Form -->
+            <div class="donate-form">
+                <h2>Donate Online</h2>
+                
+                <form id="donateForm">
+                    <div class="form-group">
+                        <label for="fullName">Full Name *</label>
+                        <input type="text" id="fullName" name="fullName" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Select Donation Amount *</label>
+                        <div class="donation-options">
+                            <div class="donation-option">
+                                <input type="radio" id="amount25" name="amount" value="25">
+                                <label for="amount25">$25</label>
+                            </div>
+                            <div class="donation-option">
+                                <input type="radio" id="amount50" name="amount" value="50">
+                                <label for="amount50">$50</label>
+                            </div>
+                            <div class="donation-option">
+                                <input type="radio" id="amount100" name="amount" value="100">
+                                <label for="amount100">$100</label>
+                            </div>
+                        </div>
+                        
+                        <div class="other-amount">
+                            <input type="number" id="otherAmount" name="otherAmount" placeholder="Other amount (USD)">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="paymentMethod">Payment Method *</label>
+                        <select id="paymentMethod" name="paymentMethod" required>
+                            <option value="">Select payment method</option>
+                            <option value="credit">Credit/Debit Card</option>
+                            <option value="paypal">PayPal</option>
+                            <option value="bank">Bank Transfer</option>
+                            <option value="mobile">Mobile Money</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message (Optional)</label>
+                        <textarea id="message" name="message" rows="3" placeholder="Add a message or dedication..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Proceed to Donate</button>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>Project Thrive Uganda</h3>
+            <p>P.O. Box 204, Mityana, Uganda</p>
+            <p>📧 info@projectthriveuganda.org</p>
+            <p>📞 +256775827420</p>
+            <p>🕒 Mon-Fri: 8:00am - 5:00pm</p>
+        </div>
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="programs.html">Our Programs</a></li>
+                <li><a href="get-involved.html">Get Involved</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2026 Project Thrive Uganda. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

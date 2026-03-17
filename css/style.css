@@ -387,3 +387,534 @@ footer {
         text-align: center;
     }
 }
+
+/* ==================== */
+/* Page Header (for all inner pages) */
+/* ==================== */
+.page-header {
+    background: linear-gradient(135deg, #0a5c36 0%, #1e7b44 100%);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.page-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.page-header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* ==================== */
+/* About Page Styles */
+/* ==================== */
+.who-we-are {
+    padding: 60px 20px;
+    background: white;
+}
+
+.who-we-are-content {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.who-we-are h2 {
+    color: #0a5c36;
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.lead-text {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-weight: 300;
+}
+
+.vision-mission-section {
+    background: #f9f9f9;
+    padding: 60px 20px;
+}
+
+.vision-mission-grid {
+    display: flex;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.vision-box, .mission-box {
+    flex: 1;
+    background: white;
+    padding: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.vision-box h2, .mission-box h2 {
+    color: #0a5c36;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+.core-values {
+    padding: 60px 20px;
+    background: white;
+}
+
+.core-values h2 {
+    text-align: center;
+    color: #0a5c36;
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.value-card {
+    text-align: center;
+    padding: 2rem;
+    background: #f5f5f5;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.value-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.value-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.value-card h3 {
+    color: #0a5c36;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.governance-structure {
+    background: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.governance-structure h2 {
+    color: #0a5c36;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.section-intro {
+    max-width: 700px;
+    margin: 0 auto 3rem auto;
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.structure-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.structure-item {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.structure-badge {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #0a5c36;
+}
+
+/* ==================== */
+/* Programs Page Styles */
+/* ==================== */
+.programs-detailed {
+    padding: 60px 20px;
+    background: white;
+}
+
+.program-detailed-card {
+    display: flex;
+    gap: 2rem;
+    background: #f9f9f9;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.program-detailed-card:hover {
+    transform: translateX(10px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.program-detailed-icon {
+    font-size: 4rem;
+    min-width: 100px;
+    text-align: center;
+}
+
+.program-detailed-content h2 {
+    color: #0a5c36;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+.program-detailed-content p {
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+.program-highlights {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.program-highlights li {
+    background: #0a5c36;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    font-size: 0.9rem;
+}
+
+/* ==================== */
+/* Get Involved Page Styles */
+/* ==================== */
+.involvement-options {
+    padding: 60px 20px;
+    background: white;
+}
+
+.involvement-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.involvement-card {
+    background: #f9f9f9;
+    padding: 2.5rem 2rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.involvement-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+
+.involvement-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.involvement-card h2 {
+    color: #0a5c36;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+.involvement-card p {
+    margin-bottom: 1.5rem;
+    color: #666;
+}
+
+.involvement-benefits {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 2rem;
+    padding-left: 1.5rem;
+}
+
+.involvement-benefits li {
+    margin: 0.8rem 0;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.involvement-benefits li::before {
+    content: "✓";
+    color: #0a5c36;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+.why-involved {
+    background: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.why-involved h2 {
+    color: #0a5c36;
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+}
+
+.why-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.why-item {
+    padding: 2rem;
+}
+
+.why-item h3 {
+    color: #0a5c36;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+
+/* ==================== */
+/* Contact Page Styles */
+/* ==================== */
+.contact-section {
+    padding: 60px 20px;
+    background: white;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-info h2,
+.contact-form h2 {
+    color: #0a5c36;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.info-item {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.info-icon {
+    font-size: 2rem;
+    min-width: 50px;
+}
+
+.info-content h3 {
+    color: #333;
+    margin-bottom: 0.3rem;
+    font-size: 1.1rem;
+}
+
+.info-content p {
+    color: #666;
+    line-height: 1.5;
+}
+
+.contact-form {
+    background: #f9f9f9;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #0a5c36;
+}
+
+.form-group textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+/* ==================== */
+/* Donate Page Styles */
+/* ==================== */
+.donate-section {
+    padding: 60px 20px;
+    background: white;
+}
+
+.donate-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.donate-info h2 {
+    color: #0a5c36;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.donate-info p {
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+.bank-details {
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 2rem 0;
+}
+
+.bank-details h3 {
+    color: #0a5c36;
+    margin-bottom: 1rem;
+}
+
+.bank-details p {
+    margin: 0.5rem 0;
+}
+
+.donate-form {
+    background: #f9f9f9;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.donation-options {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0 2rem;
+}
+
+.donation-option {
+    flex: 1;
+}
+
+.donation-option input[type="radio"] {
+    display: none;
+}
+
+.donation-option label {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    background: white;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.donation-option input[type="radio"]:checked + label {
+    border-color: #0a5c36;
+    background: #e8f5e9;
+    color: #0a5c36;
+    font-weight: bold;
+}
+
+.other-amount {
+    margin-top: 1rem;
+}
+
+/* ==================== */
+/* Active Navigation Link */
+/* ==================== */
+.nav-links a.active {
+    background-color: #1e3f1f;
+    font-weight: bold;
+}
+
+/* ==================== */
+/* Responsive Updates */
+/* ==================== */
+@media (max-width: 768px) {
+    .page-header h1 {
+        font-size: 2rem;
+    }
+
+    .vision-mission-grid {
+        flex-direction: column;
+    }
+
+    .program-detailed-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .program-detailed-icon {
+        font-size: 3rem;
+    }
+
+    .program-highlights {
+        justify-content: center;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .donate-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .team-item {
+        flex-direction: column;
+        text-align: center;
+        gap: 0.5rem;
+    }
+}
